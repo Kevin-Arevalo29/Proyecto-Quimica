@@ -26,7 +26,7 @@ public class Controller {
 
     @FXML
     void muestras(ActionEvent event) throws IOException {
-        loadWindow("/view/MuestrasView.fxml", "Muestras", event, 600, 722);
+        loadWindow("/view/MuestrasView.fxml", "Muestras", event, 600, 800);
     }
     private void loadWindow(String fxmlFile, String titel, ActionEvent event, int width, int higth) throws IOException{
             Parent root = FXMLLoader.load(getClass().getResource(fxmlFile));
