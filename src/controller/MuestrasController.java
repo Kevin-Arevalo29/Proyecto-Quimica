@@ -25,7 +25,7 @@ public class MuestrasController {
 
     @FXML
     void Inicio(ActionEvent event) throws IOException {
-    loadWindow("/view/HomeView.fxml", "Inicio", event, 917, 626);
+    loadWindow("/view/HomeView.fxml", "Inicio", event, 600, 785);
     }
 
     @FXML

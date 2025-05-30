@@ -21,7 +21,7 @@ public class Controller {
 
     @FXML
     void Volver(ActionEvent event) throws IOException {
-       loadWindow("/view/HomeView.fxml", "Home", event , 917, 626);
+       loadWindow("/view/HomeView.fxml", "Home", event , 600, 785);
     }
 
     @FXML

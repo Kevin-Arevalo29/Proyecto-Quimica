@@ -10,7 +10,7 @@ public class App extends Application {
     public void start(Stage primaryStage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("/view/HomeView.fxml"));
         primaryStage.setTitle("Menu");
-        primaryStage.setScene(new Scene(root, 917, 626));
+        primaryStage.setScene(new Scene(root, 600, 785));
         primaryStage.show();
     }
 
