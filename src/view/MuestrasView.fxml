@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<ScrollPane fitToWidth="true" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MuestrasController">
+   <content>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="865.0" prefWidth="600.0">
+         <children>
+            <Pane prefHeight="78.0" prefWidth="600.0" style="-fx-background-color: #A8E8D6;">
+               <children>
+                  <Label layoutX="155.0" layoutY="-13.0" text="Muestras">
+                     <font>
+                        <Font size="72.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Label layoutX="56.0" layoutY="106.0" text="Caracterización de un Agua">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Text layoutX="56.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Primero destilamos el agua y la máquina de cabina flujo la minera utilizando 100 ml de muestra (Se sacaron 3 muestras cada una de 100 ml) Para verificar la existencia de microorganismos en el área de microbiología. Utilizamos placas dónde vamos a sembramos las muestras. Utilizamos unos frascos que contenían biosulfato de sodio Para hacer preservación de los microorganismos que pueden haber en aquellas muestras" wrappingWidth="500.6252326965332">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Label layoutX="56.0" layoutY="284.0" text="Placas en las que se encuentran las muestras">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+            <Text layoutX="56.0" layoutY="340.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sigamos las placas en las cuales se encuentran las muestras y agregamos en la máquina selladora para luego poder ingresarlas en una máquina incubadora y así poder encubar la siembra Hacemos purgas que son lavados de los frascos con la misma agua traída Con estas purgas logramos hacer y obtener la conductividad que tiene el agua el PH y la temperatura dando como resultado lo siguiente." wrappingWidth="500.6252326965332">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Label layoutX="56.0" layoutY="474.0" text="Tiempo despues">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+            <Text layoutX="56.0" layoutY="527.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A las 24 horas observamos las muestras que quedaron en la incubadora Para lograr rectificar muestras de E.coli (Es una bacteria de la materia fecal) En la muestra blanco se ve que no obtuvimos rasgos de E.coli En la segunda muestra obtuvimos un número más probable 1 y esto se calcula por la dilución de cuatro ( Esto significa que obtuvimos en la muestra Un pocillo grande positivo para E.coli) Esto dio 49 bis 48 tiene más es mayor de 2419,6 coliformes totales" wrappingWidth="500.6252326965332">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="139.0" fitWidth="169.0" layoutX="56.0" layoutY="651.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/imagen-1.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="139.0" fitWidth="169.0" layoutX="184.0" layoutY="651.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/imagen-8.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="139.0" fitWidth="169.0" layoutX="317.0" layoutY="651.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/imagen-14.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="fsodhf" fitHeight="139.0" fitWidth="169.0" layoutX="446.0" layoutY="651.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/imagen-18.jpg" />
+               </image>
+            </ImageView>
+            <Button fx:id="Inicio" layoutX="519.0" layoutY="813.0" mnemonicParsing="false" onAction="#Inicio" style="-fx-background-color: #55B8AA;" text="Inicio" />
+            <Button fx:id="VolverInformacion" layoutX="427.0" layoutY="813.0" mnemonicParsing="false" onAction="#Vover" style="-fx-background-color: #55B8AA;" text="¿Que es PH?" />
+         </children>
+      </AnchorPane>
+   </content>
+</ScrollPane>
